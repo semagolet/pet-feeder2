@@ -24,9 +24,9 @@
 /************************* WiFi Access Point *********************************/
 Servo myservo;
 
-const char* ssid = "sema22";
-const char* password = "sema1234";
-const char* mqtt_server = "192.168.139.136";
+const char* ssid = " ";  //your ssid
+const char* password = " "; //your password
+const char* mqtt_server = " "; //server IP
 
 WiFiClient espClient;
 PubSubClient client(espClient);
